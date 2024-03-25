@@ -1,0 +1,98 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "great_gatsby.jpg",
+        "review": "A captivating portrayal of the Jazz Age in America, filled with love, longing, and tragedy.",
+        "totalPages": 180,
+        "rating": 4.5,
+        "category": "Classic Fiction",
+        "tags": [
+            "Romance",
+            "Tragedy"
+        ],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 2,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "to_kill_a_mockingbird.jpg",
+        "review": "A powerful narrative addressing racial injustice and moral growth in a small Southern town.",
+        "totalPages": 281,
+        "rating": 4.8,
+        "category": "Classic Fiction",
+        "tags": [
+            "Social Justice",
+            "Coming of Age"
+        ],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 3,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "1984.jpg",
+        "review": "A chilling dystopian novel exploring themes of totalitarianism, surveillance, and individual freedom.",
+        "totalPages": 328,
+        "rating": 4.6,
+        "category": "Dystopian Fiction",
+        "tags": [
+            "Political",
+            "Censorship"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "catcher_in_the_rye.jpg",
+        "review": "A timeless coming-of-age story following a disillusioned teenager's journey of self-discovery.",
+        "totalPages": 224,
+        "rating": 4.4,
+        "category": "Classic Fiction",
+        "tags": [
+            "Identity",
+            "Alienation"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "pride_and_prejudice.jpg",
+        "review": "A witty and romantic comedy of manners, highlighting societal expectations and the complexities of love.",
+        "totalPages": 279,
+        "rating": 4.7,
+        "category": "Classic Fiction",
+        "tags": [
+            "Romance",
+            "Satire"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "the_hobbit.jpg",
+        "review": "An enchanting adventure tale filled with magic, dwarves, elves, and a courageous hobbit on a quest for treasure.",
+        "totalPages": 310,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Quest"
+        ],
+        "publisher": "Allen & Unwin",
+        "yearOfPublishing": 1937
+    }
+]
