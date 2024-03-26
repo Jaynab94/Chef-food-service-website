@@ -4,10 +4,10 @@
         "bookName": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "image": "https://i.ibb.co/2hFs7H7/ahmed-almakhzanji-kshk-B1i5-5o-unsplash.jpg",
-        "review": "A captivating portrayal of the Jazz Age in America, filled with love, longing, and tragedy.",
+        "review": "The world-building in The Great Gatsby is simply extraordinary. The Great Gatsby has masterfully created a vivid and immersive setting that feels both familiar and fantastical. Whether it's exploring the bustling streets of Pride and Prejudice or venturing into the mysterious depths of Pride and Prejudice, every scene is brought to life with vivid detail and palpable atmosphere.As the plot unfolds.",
         "totalPages": 180,
         "rating": 4.5,
-        "category": ["Fantasy", "Adventure"],
+        "category": "Fiction",
         "tags": [
             "Romance",
             "Tragedy"
@@ -20,10 +20,10 @@
         "bookName": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "image": "https://i.ibb.co/b74003L/pexels-lisa-fotios-1516983.jpg",
-        "review": "A powerful narrative addressing racial injustice and moral growth in a small Southern town.",
+        "review": "The world-building in To Kill a Mockingbird is simply extraordinary. [Author's Name] has masterfully created a vivid and immersive setting that feels both familiar and fantastical. Whether it's exploring the bustling streets of Pride and Prejudice or venturing into the mysterious depths of Pride and Prejudice, every scene is brought to life with vivid detail and palpable atmosphere.As the plot unfolds.",
         "totalPages": 281,
         "rating": 4.8,
-        "category": ["Fiction", "Coming-of-age"],
+        "category": "Fiction",
         "tags": [
             "Social Justice",
             "Coming of Age"
@@ -33,13 +33,13 @@
     },
     {
         "bookId": 3,
-        "bookName": "1984",
+        "bookName": "1984's Day",
         "author": "George Orwell",
         "image": "https://i.ibb.co/YdGyj8N/pexels-ann-h-1765033.jpg",
-        "review": "A chilling dystopian novel exploring themes of totalitarianism, surveillance, and individual freedom.",
+        "review": "The world-building in 1984's Day is simply extraordinary. [Author's Name] has masterfully created a vivid and immersive setting that feels both familiar and fantastical. Whether it's exploring the bustling streets of Pride and Prejudice or venturing into the mysterious depths of Pride and Prejudice, every scene is brought to life with vivid detail and palpable atmosphere.As the plot unfolds.",
         "totalPages": 328,
         "rating": 4.6,
-        "category": ["Fantasy", "Young Adult"],
+        "category": "Fiction",
         "tags": [
             "Political",
             "Censorship"
@@ -52,10 +52,10 @@
         "bookName": "The Catcher in the Rye",
         "author": "J.D. Salinger",
         "image": "https://i.ibb.co/6gZPN7j/pexels-evgeny-tchebotarev-2187601.jpg",
-        "review": "A timeless coming-of-age story following a disillusioned teenager's journey of self-discovery.",
+        "review": "The world-building in The Catcher in the Rye is simply extraordinary. [Author's Name] has masterfully created a vivid and immersive setting that feels both familiar and fantastical. Whether it's exploring the bustling streets of Pride and Prejudice or venturing into the mysterious depths of Pride and Prejudice, every scene is brought to life with vivid detail and palpable atmosphere.As the plot unfolds.",
         "totalPages": 224,
         "rating": 4.4,
-        "category": ["Fiction", "Coming-of-age"],
+        "category": "Fiction",
         "tags": [
             "Identity",
             "Alienation"
@@ -68,10 +68,10 @@
         "bookName": "Pride and Prejudice",
         "author": "Jane Austen",
         "image": "https://i.ibb.co/2n0VYYB/pexels-lisa-fotios-734968-1.jpg",
-        "review": "A witty and romantic comedy of manners, highlighting societal expectations and the complexities of love.",
+        "review": "The world-building in Pride and Prejudice is simply extraordinary. [Author's Name] has masterfully created a vivid and immersive setting that feels both familiar and fantastical. Whether it's exploring the bustling streets of Pride and Prejudice or venturing into the mysterious depths of Pride and Prejudice.",
         "totalPages": 279,
         "rating": 4.7,
-        "category": ["Mystery", "Thriller"],
+        "category": "Fiction",
         "tags": [
             "Romance",
             "Satire"
@@ -84,10 +84,10 @@
         "bookName": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "image": "https://i.ibb.co/74t2K2q/pexels-pixabay-159850.jpg",
-        "review": "An enchanting adventure tale filled with magic, dwarves, elves, and a courageous hobbit on a quest for treasure.",
+        "review": "The world-building in The Hobbit is simply extraordinary. [Author's Name] has masterfully created a vivid and immersive setting that feels both familiar and fantastical. Whether it's exploring the bustling streets of Pride and Prejudice or venturing into the mysterious depths of Pride and Prejudice, every scene is brought to s.",
         "totalPages": 310,
         "rating": 4.9,
-        "category": ["Fiction", "Legal Drama"],
+        "category": "Fiction",
         "tags": [
             "Adventure",
             "Quest"

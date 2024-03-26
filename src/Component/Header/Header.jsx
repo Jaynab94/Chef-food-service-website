@@ -9,7 +9,8 @@ const Header = () => {
             <NavLink to={'/'} style={({ isActive }) => {
                 return {
                     background: isActive ? "green" : "",
-                 
+
+
                     color: isActive ? "white" : "black",
 
 
@@ -69,7 +70,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-2xl font-bold ">Book Vibe</a>
+                <a className="btn btn-ghost text-xl font-bold ">Book Vibe</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

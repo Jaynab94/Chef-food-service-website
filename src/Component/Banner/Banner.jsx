@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <div className="hero mt-10 h-[555px] bg-base-200 rounded-2xl p-20">
+        <div className="hero mt-10 md:h-[555px] bg-base-200 rounded-2xl md:p-20">
             <div className="hero-content  flex-col lg:flex-row-reverse ">
                 <img src="https://i.ibb.co/wzx6jkn/banner.png" className="max-w-sm rounded-lg shadow-2xl" />
                 <div>

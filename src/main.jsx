@@ -16,6 +16,7 @@ import Contact from './Component/Contact/Contact';
 import About from './Component/About/About';
 import Pages from './Component/Pages/Pages';
 import ErrorPage from './Component/EerrPage/ErrorPage';
+import BookDetails from './Component/BookDetails/BookDetails';
 
 
 
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
-    
+
 
     children: [
 
@@ -44,7 +45,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/pages',
-        element: <Pages></Pages>
+        element: <Pages></Pages>,
+        loader: () => fetch(('fake.json'))
       },
 
       {
@@ -55,6 +57,12 @@ const router = createBrowserRouter([
         path: '/about',
         element: <About></About>
       },
+
+      {
+        path: '/book/:bookId',
+        element: <BookDetails></BookDetails>,
+        loader: () => fetch('fake.json')
+      }
 
     ]
   },
