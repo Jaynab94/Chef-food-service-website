@@ -3,11 +3,11 @@
         "bookId": 1,
         "bookName": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
-        "image": "great_gatsby.jpg",
+        "image": "https://i.ibb.co/2hFs7H7/ahmed-almakhzanji-kshk-B1i5-5o-unsplash.jpg",
         "review": "A captivating portrayal of the Jazz Age in America, filled with love, longing, and tragedy.",
         "totalPages": 180,
         "rating": 4.5,
-        "category": "Classic Fiction",
+        "category": ["Fantasy", "Adventure"],
         "tags": [
             "Romance",
             "Tragedy"
@@ -19,11 +19,11 @@
         "bookId": 2,
         "bookName": "To Kill a Mockingbird",
         "author": "Harper Lee",
-        "image": "to_kill_a_mockingbird.jpg",
+        "image": "https://i.ibb.co/b74003L/pexels-lisa-fotios-1516983.jpg",
         "review": "A powerful narrative addressing racial injustice and moral growth in a small Southern town.",
         "totalPages": 281,
         "rating": 4.8,
-        "category": "Classic Fiction",
+        "category": ["Fiction", "Coming-of-age"],
         "tags": [
             "Social Justice",
             "Coming of Age"
@@ -35,11 +35,11 @@
         "bookId": 3,
         "bookName": "1984",
         "author": "George Orwell",
-        "image": "1984.jpg",
+        "image": "https://i.ibb.co/YdGyj8N/pexels-ann-h-1765033.jpg",
         "review": "A chilling dystopian novel exploring themes of totalitarianism, surveillance, and individual freedom.",
         "totalPages": 328,
         "rating": 4.6,
-        "category": "Dystopian Fiction",
+        "category": ["Fantasy", "Young Adult"],
         "tags": [
             "Political",
             "Censorship"
@@ -51,11 +51,11 @@
         "bookId": 4,
         "bookName": "The Catcher in the Rye",
         "author": "J.D. Salinger",
-        "image": "catcher_in_the_rye.jpg",
+        "image": "https://i.ibb.co/6gZPN7j/pexels-evgeny-tchebotarev-2187601.jpg",
         "review": "A timeless coming-of-age story following a disillusioned teenager's journey of self-discovery.",
         "totalPages": 224,
         "rating": 4.4,
-        "category": "Classic Fiction",
+        "category": ["Fiction", "Coming-of-age"],
         "tags": [
             "Identity",
             "Alienation"
@@ -67,11 +67,11 @@
         "bookId": 5,
         "bookName": "Pride and Prejudice",
         "author": "Jane Austen",
-        "image": "pride_and_prejudice.jpg",
+        "image": "https://i.ibb.co/2n0VYYB/pexels-lisa-fotios-734968-1.jpg",
         "review": "A witty and romantic comedy of manners, highlighting societal expectations and the complexities of love.",
         "totalPages": 279,
         "rating": 4.7,
-        "category": "Classic Fiction",
+        "category": ["Mystery", "Thriller"],
         "tags": [
             "Romance",
             "Satire"
@@ -83,11 +83,11 @@
         "bookId": 6,
         "bookName": "The Hobbit",
         "author": "J.R.R. Tolkien",
-        "image": "the_hobbit.jpg",
+        "image": "https://i.ibb.co/74t2K2q/pexels-pixabay-159850.jpg",
         "review": "An enchanting adventure tale filled with magic, dwarves, elves, and a courageous hobbit on a quest for treasure.",
         "totalPages": 310,
         "rating": 4.9,
-        "category": "Fantasy",
+        "category": ["Fiction", "Legal Drama"],
         "tags": [
             "Adventure",
             "Quest"

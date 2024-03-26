@@ -1,22 +1,60 @@
 import { NavLink } from "react-router-dom";
 
+
+
 const Header = () => {
 
     const links = <>
-        <li>
-            <NavLink to={'/'}>Home</NavLink>
+        <li className="mr-2">
+            <NavLink to={'/'} style={({ isActive }) => {
+                return {
+                    background: isActive ? "green" : "",
+                 
+                    color: isActive ? "white" : "black",
+
+
+                };
+            }}>Home</NavLink>
+        </li>
+        <li className="mr-2">
+            <NavLink to={'/listedbooks'} style={({ isActive }) => {
+                return {
+                    background: isActive ? "green" : "",
+                    color: isActive ? "white" : "black",
+
+                };
+            }}
+            >Listed Books</NavLink>
         </li>
         <li>
-            <NavLink to={'/listedbooks'}>Listed Books</NavLink>
+            <NavLink to={'/pages'} style={({ isActive }) => {
+                return {
+                    background: isActive ? "green" : "",
+                    color: isActive ? "white" : "black",
+
+                };
+            }}
+            >Pages to Read</NavLink>
+        </li>
+        <li className="ml-3">
+            <NavLink to={'/contact'} style={({ isActive }) => {
+                return {
+                    background: isActive ? "green" : "",
+
+                    color: isActive ? "white" : "black",
+                };
+            }}
+            >Contact</NavLink>
         </li>
         <li>
-            <NavLink to={'/pages'}>Pages to Read</NavLink>
-        </li>
-        <li>
-            <NavLink to={'/contact'}>Contact</NavLink>
-        </li>
-        <li>
-            <NavLink to={'/about'}>About</NavLink>
+            <NavLink to={'/about'} style={({ isActive }) => {
+                return {
+                    background: isActive ? "green" : "",
+                    color: isActive ? "white" : "black",
+
+                };
+            }}
+            >About</NavLink>
         </li>
     </>
 
@@ -31,15 +69,16 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-2xl font-bold ">Book Vibe</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end gap-6">
+                <a className="btn bg-[#23BE0A] text-white">Sign In</a>
+                <a className="btn bg-[#59C6D2] text-white">Sign Up</a>
             </div>
         </div>
     );
