@@ -4,6 +4,7 @@ import { Link, Outlet, useLoaderData, useNavigation } from "react-router-dom";
 import { getStoredBooks } from "../../Utility/localStorage";
 import PagesBook from "../pagesBook/PagesBook";
 import { MdLocationPin, MdContactPage } from "react-icons/md";
+import { FaArrowDown } from "react-icons/fa";
 import { GrGroup } from "react-icons/gr";
 import '../loader/Loder'
 import Loder from "../loader/Loder";
@@ -80,7 +81,7 @@ const ListedBooks = () => {
             <div className="flex justify-center mt-8 mb-14">
 
                 <details className="dropdown ">
-                    <summary className="m-1 btn bg-[#23BE0A] rounded-xl px-5 py-2 text-white font-semibold">Sort By</summary>
+                    <summary className="m-1 btn bg-[#23BE0A] rounded-xl px-5 py-2 text-white font-semibold">Sort By <FaArrowDown /></summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                         <li onClick={() => handleBooksFilter('all')}><a>all</a></li>
                         <li onClick={() => handleBooksFilter('Fiction')}><a>Fiction</a></li>
