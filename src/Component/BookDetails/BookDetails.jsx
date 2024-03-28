@@ -1,21 +1,33 @@
-import { useState } from "react";
-import { Link, useLoaderData, useParams } from "react-router-dom";
 
-import { ToastContainer, toast } from 'react-toastify';
+import { useLoaderData, useParams } from "react-router-dom";
+
+
+import 'react-toastify/dist/ReactToastify.css';
+
+
 import 'react-toastify/dist/ReactToastify.css';
 import { savedBooks } from "../../Utility/localStorage";
+import { saveWishlist } from "../..";
+
+
+
+
 
 
 
 
 const BookDetails = () => {
+
+
     const books = useLoaderData();
+
+
     const { bookId } = useParams();
     const booksId = parseInt(bookId);
 
     const book = books.find(book => book.bookId === booksId);
 
-    console.log(book);
+    // console.log(book);
 
 
 
@@ -25,14 +37,21 @@ const BookDetails = () => {
 
 
     const handleReadButon = () => {
+
         savedBooks(booksId);
 
-        toast('Read this book successfully!')
+        
     };
 
-    const handleWishlistButton = () => {
-        toast('Added to Wishlist successful')
+
+    const handleWishlistButton = (book) => {
+        saveWishlist(book)
+        // console.log(book)
+        // toast('Added to Wishlist successful')
     }
+
+
+
 
 
     return (
@@ -91,12 +110,12 @@ const BookDetails = () => {
 
                 <div className="flex gap-10">
                     <button onClick={handleReadButon} className="px-6 py-4 border font-semibold border-gray-400 rounded-xl">Read</button>
+                   
 
-
-                    <button onClick={handleWishlistButton} className="px-6 py-4 border rounded-xl text-white font-semibold  bg-[#50B1C9]">Wishlist</button>
+                    <button onClick={() => handleWishlistButton(book)} className="px-6 py-4 border rounded-xl text-white font-semibold  bg-[#50B1C9]">Wishlist</button>
                 </div>
 
-                <ToastContainer />
+
 
 
             </div>
@@ -106,4 +125,4 @@ const BookDetails = () => {
     )
 };
 
-export default BookDetails;
+export default BookDetails

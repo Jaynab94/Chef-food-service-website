@@ -14,7 +14,6 @@ const Books = () => {
 
 
 
-
     return (
         <div>
             <div >
@@ -26,7 +25,7 @@ const Books = () => {
 
                 <div className="grid md:grid-cols-3 gap-6">
                     {
-                        books.map(book => <Book key={book.id} book={book}></Book>)
+                        books.map((book,idx) => <Book key={idx} book={book}></Book>)
                     }
                 </div>
                 
