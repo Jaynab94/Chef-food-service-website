@@ -2,7 +2,7 @@
 
 Welcome to Book Vibe, where you can dive into the enchanting world of books and discover your next literary adventure!
 
-Visit the live site: [](https://assain-8-book-review.netlify.app/)
+Visit the live site: [https://assain-8-book-review.netlify.app/]
 
 ## Features and Characteristics
 
