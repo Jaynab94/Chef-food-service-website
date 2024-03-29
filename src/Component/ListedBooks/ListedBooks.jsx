@@ -136,11 +136,11 @@ const ListedBooks = () => {
             <p>
                 {
                     shorts.map(book => <div key={book.bookId}>
-                        <div className="card   card-side p-4 mb-4 bg-base-100 border shadow-xl">
+                        <div className="card card-side p-4 mb-4 bg-base-100 border shadow-xl">
 
                             <figure><img className="w-[230px] rounded-2xl h-[230px]" src={book.image} /></figure>
 
-                            <div className="card-body space-y-3">
+                            <div className="card-body space-y-3 ">
                                 <h2 className="card-title font-bold text-2xl">{book.bookName}</h2>
                                 <p className="font-medium text-[#131313CC]">By: {book.author}</p>
 
