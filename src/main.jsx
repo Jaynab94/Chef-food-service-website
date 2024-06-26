@@ -21,6 +21,7 @@ import BookDetails from './Component/BookDetails/BookDetails';
 import ReadBooks from './Component/ReadBooks/ReadBooks';
 import WishList from './Component/WishList/WishList';
 import { Toaster } from 'react-hot-toast';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 
@@ -60,47 +61,51 @@ const router = createBrowserRouter([
           {
             path: 'wishlist',
 
-            element: <WishList></WishList>
-          }
+            element: <WishList></WishList>,
+          },
 
 
 
 
 
-        ]
+        ],
       },
       {
         path: '/pages',
         element: <Pages></Pages>,
-        loader: () => fetch('fake.json')
+        loader: () => fetch('fake.json'),
 
       },
 
-      {
-        path: '/contact',
-        element: <Contact></Contact>
-      },
-      {
-        path: '/about',
-        element: <About></About>
-      },
+  {
+    path: '/contact',
+    element: <Contact></Contact>
+  },
+  {
+    path: '/about',
+    element: <About></About>
+  },
 
-      {
-        path: '/book/:bookId',
-        element: <BookDetails></BookDetails>,
-        loader: () => fetch('fake.json')
-      },
+  {
+    path: '/book/:bookId',
+    element: <BookDetails></BookDetails>,
+    loader: () => fetch('fake.json')
+  },
 
 
 
-    ]
+]
   },
 ]);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-    <Toaster></Toaster>
+    <HelmetProvider>
+
+      <RouterProvider router={router} />
+      <Toaster></Toaster>
+    </HelmetProvider>
+
   </React.StrictMode>,
 )

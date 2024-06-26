@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { savedBooks } from "../../Utility/localStorage";
 import { saveWishlist } from "../..";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -53,9 +54,13 @@ const BookDetails = () => {
 
 
 
-
     return (
         <div className="grid md:grid-cols-2 gap-12">
+            <Helmet>
+                <title>
+                    Book | {bookId}
+                </title>
+            </Helmet>
             <div className="border col-span-1">
                 <img className="h-[600px] rounded-3xl" src={book.image} alt="" />
             </div>

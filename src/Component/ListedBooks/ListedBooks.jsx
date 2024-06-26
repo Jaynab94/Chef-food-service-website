@@ -8,6 +8,7 @@ import { FaArrowDown } from "react-icons/fa";
 import { GrGroup } from "react-icons/gr";
 import '../loader/Loder'
 import Loder from "../loader/Loder";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -79,6 +80,11 @@ const ListedBooks = () => {
 
 
             <div className="flex justify-center mt-8 mb-14">
+               <Helmet>
+                <title>
+                    Book | Book List
+                </title>
+               </Helmet>
 
                 <details className="dropdown ">
                     <summary className="m-1 btn bg-[#23BE0A] rounded-xl px-5 py-2 text-white font-semibold">Sort By <FaArrowDown /></summary>
